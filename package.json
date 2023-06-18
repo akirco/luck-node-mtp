@@ -8,8 +8,7 @@
   "bugs": {
     "url": "https://github.com/lucksoft-yungui/luck-node-mtp/issues"
   },
-  "main": "./dist/index.mjs",
-  "module": "./dist/index.js",
+  "main": "./dist/index.js",
   "types": "./dist/index.d.ts",
   "scripts": {
     "pretest": "cross-env NODE_ENV=development node test/test.js",

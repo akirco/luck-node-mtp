@@ -7,7 +7,7 @@ export const tsup: Options = {
   sourcemap: env === "prod",
   clean: true,
   dts: true,
-  format: ["cjs", "esm"],
+  format: ["cjs"],
   minify: env === "production",
   bundle: env === "production",
   skipNodeModulesBundle: true,

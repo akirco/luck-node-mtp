@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "target": "ESNext",
+    "lib": ["esnext", "dom"],
+    "strict": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "outDir": "lib",
+    "module": "ESNext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "rootDir": ".",
+    "emitDeclarationOnly": true,
+    "strictPropertyInitialization": false
+  },
+  "include": ["index.ts"]
+}

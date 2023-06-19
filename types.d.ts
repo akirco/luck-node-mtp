@@ -89,6 +89,17 @@ interface mtp {
     progressCallBackFn: (progress: number, total: number) => void
   ): boolean;
   /**
+   * @description Download files from device to the localPC.
+   * @param targetFile Device file path to download
+   * @param localFilePath Target local parent folder path
+   * @param progressCallBackFn Callback function for download progress`(progress, total)=>void`
+   */
+  download(
+    targetFile: string,
+    localFilePath: string,
+    progressCallBackFn: (progress: number, total: number) => void
+  ): boolean;
+  /**
    * @description This function deletes a single file, track, playlist, folder or any other object of the MTP device, identified by the object ID.
    * @param targetPath The destination address on the device to delete
    * @returns `boolean` Get true if the operate was successful
